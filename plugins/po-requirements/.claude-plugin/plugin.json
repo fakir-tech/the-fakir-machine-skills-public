@@ -1,7 +1,7 @@
 {
   "name": "po-requirements",
   "description": "Interview a product owner to capture clear, complete, non-technical project requirements and produce a structured requirements document before any solution or technology is chosen.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Reza Hosseini",
     "email": "reza.hosseini@fakir-it.de"
