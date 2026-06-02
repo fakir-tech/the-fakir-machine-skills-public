@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "po-requirements-marketplace",
+  "description": "Skills for product owners: structured, non-technical requirements gathering.",
+  "owner": {
+    "name": "Reza Hosseini",
+    "email": "reza.hosseini@fakir-it.de"
+  },
+  "plugins": [
+    {
+      "name": "po-requirements",
+      "description": "Interview a product owner to capture clear, complete, non-technical project requirements and produce a structured requirements document before any solution or technology is chosen.",
+      "author": {
+        "name": "Reza Hosseini"
+      },
+      "category": "productivity",
+      "source": "./plugins/po-requirements"
+    }
+  ]
+}
