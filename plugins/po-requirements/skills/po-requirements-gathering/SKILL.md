@@ -17,7 +17,7 @@ When the interview is complete, produce a structured requirements document using
 
 Work through these sections in order. Do not skip a section.
 
-### Section 1 — The problem
+### Section 1 of 6 — The problem
 Goal: understand what is broken or missing today, from the user's perspective.
 
 Ask:
@@ -26,7 +26,7 @@ Ask:
 3. "How often does this problem happen, and how painful is it when it does?"
 4. "What do people do today to work around it?"
 
-### Section 2 — The users
+### Section 2 of 6 — The users
 Goal: identify who actually has the problem.
 
 Ask:
@@ -34,7 +34,7 @@ Ask:
 2. "Are there different types of users who need different things from the solution?"
 3. "Who else is affected by this problem, even if they're not the main users — for example, managers, customers, or other teams?"
 
-### Section 3 — Success
+### Section 3 of 6 — Success
 Goal: establish what a good outcome looks like, in measurable terms.
 
 Ask:
@@ -42,7 +42,7 @@ Ask:
 2. "How would you know the solution is working? Is there a number, a time, or a behaviour that would tell you it's a success?"
 3. "Is there anything that would make the solution a failure even if it technically works? For example, if it's too slow, too complex, or people don't adopt it?"
 
-### Section 4 — The scope
+### Section 4 of 6 — The scope
 Goal: establish what is in and out of scope, and any hard constraints.
 
 Ask:
@@ -51,7 +51,7 @@ Ask:
 3. "Are there any hard constraints? For example: it must connect to an existing system, it must work in a specific language or country, it must be ready by a specific date, or it must meet a regulatory requirement."
 4. "Are there existing systems this needs to work with or replace?"
 
-### Section 5 — Process & workflow
+### Section 5 of 6 — Process & workflow
 Goal: understand the high-level process the solution needs to support.
 
 Ask:
@@ -60,7 +60,7 @@ Ask:
 3. "Are there any steps in the process where a human must stay in control — where you wouldn't want the system to act automatically?"
 4. "Are there any steps that happen outside your organisation — with customers, suppliers, or partners?"
 
-### Section 6 — Open questions & risks
+### Section 6 of 6 — Open questions & risks
 Goal: surface what the product owner doesn't yet know.
 
 Ask:
