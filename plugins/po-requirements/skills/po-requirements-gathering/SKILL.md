@@ -25,6 +25,7 @@ Ask:
 2. (Follow-up if they describe a feature) "Before we talk about what to build — can you tell me more about what's going wrong for the people involved? What can't they do, or what takes too long, or what goes wrong?"
 3. "How often does this problem happen, and how painful is it when it does?"
 4. "What do people do today to work around it?"
+5. "What is this problem costing you today — in time, money, or missed opportunity? And roughly what would it be worth to your business to solve it?"
 
 ### Section 2 of 6 — The users
 Goal: identify who actually has the problem.
@@ -43,13 +44,16 @@ Ask:
 3. "Is there anything that would make the solution a failure even if it technically works? For example, if it's too slow, too complex, or people don't adopt it?"
 
 ### Section 4 of 6 — The scope
-Goal: establish what is in and out of scope, and any hard constraints.
+Goal: establish what is in and out of scope, prioritised by importance, and surface any hard constraints.
 
 Ask:
-1. "What does the solution absolutely must do? If it doesn't do this, it's not useful."
-2. "What are you explicitly not trying to solve with this? What should we leave out of scope, at least for now?"
-3. "Are there any hard constraints? For example: it must connect to an existing system, it must work in a specific language or country, it must be ready by a specific date, or it must meet a regulatory requirement."
-4. "Are there existing systems this needs to work with or replace?"
+1. "What must the solution absolutely do? If it can't do this, it's not useful at all."
+2. "What would you like it to do, but could wait for a later version if needed?"
+3. "What would be nice to have one day, but is clearly not urgent right now?"
+4. "What should we explicitly leave out for now?"
+5. "If you imagine a very first version — something small enough to test quickly and prove the idea — what is the single most important thing it must do or demonstrate?"
+6. "Are there any hard constraints? For example: it must connect to an existing system, it must be ready by a specific date, or it must meet a regulatory requirement."
+7. "Are there existing systems this needs to work with or replace?"
 
 ### Section 5 of 6 — Process & workflow
 Goal: understand the high-level process the solution needs to support.
@@ -79,7 +83,7 @@ After the interview, produce a document with exactly these sections. Use plain l
 # Project Requirements — [Product / Project Name]
 
 **Date:** [today's date]
-**Captured by:** Requirements Elicitation Skill v1.0
+**Captured by:** Fakir Technologies
 **Status:** DRAFT — awaiting product owner confirmation
 
 ---
@@ -102,6 +106,8 @@ After the interview, produce a document with exactly these sections. Use plain l
 
 ## 3. Success criteria
 
+**Business value:** [What the problem costs today and what solving it is worth — in time, money, or risk. Write "To be confirmed" if not stated, and flag it in section 6.]
+
 [Bullet list of measurable outcomes. Each item should be something you could verify after launch. Example: "A sales rep can process an inbound enquiry in under 10 minutes without manual data re-entry."]
 
 - …
@@ -114,11 +120,20 @@ After the interview, produce a document with exactly these sections. Use plain l
 
 ## 4. Scope
 
-**In scope (must have):**
+**Must have** (core — not useful without these):
 - …
 
-**Out of scope (explicitly excluded for now):**
+**Should have** (important — include in an early version if possible):
 - …
+
+**Could have** (nice to have — defer to a later phase):
+- …
+
+**Out of scope** (explicitly excluded for now):
+- …
+
+**What the first version must prove:**
+[The customer's own instinct for the PoC core — the single most important thing to validate first. "To be confirmed" if not stated.]
 
 **Hard constraints:**
 - …
