@@ -189,3 +189,5 @@ Please review this document carefully. If anything does not reflect what you mea
 END OF OUTPUT FORMAT
 
 After producing the document, say: "Please read through this carefully. Does it accurately reflect what you described? If anything is wrong, incomplete, or missing, tell me and I'll update it."
+
+Once the product owner has confirmed the document (or after any corrections are accepted), save the final document to a file. Derive the filename from the project name: lowercase it, replace spaces and special characters with hyphens, strip leading/trailing hyphens, and use the pattern `requirements-<project-slug>.md`. For example, a project named "Customer Onboarding Portal" becomes `requirements-customer-onboarding-portal.md`. Save the file in the current working directory. After saving, tell the product owner the filename.
