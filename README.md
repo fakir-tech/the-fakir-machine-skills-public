@@ -1,11 +1,9 @@
-# PO Requirements Marketplace
+# the-fakir-machine-skills-public
 
-A small [Claude Code](https://claude.com/claude-code) plugin marketplace containing the
-**po-requirements** plugin — a guided interview skill that helps a product owner capture
-clear, complete, *non-technical* project requirements and turn them into a structured
-requirements document.
+The public repository for all [Fakir IT](https://fakir-it.de) [Claude Code](https://claude.com/claude-code) skills and plugins.
+This is where Fakir's reusable skills are stored, maintained, and distributed as a plugin marketplace.
 
-## What's inside
+## Available plugins & skills
 
 | Plugin | Skill | What it does |
 |--------|-------|--------------|
@@ -13,22 +11,19 @@ requirements document.
 
 ## Install
 
-In Claude Code, add this marketplace, then install the plugin:
+In Claude Code, add this marketplace, then install the plugin you need:
 
 ```
-/plugin marketplace add https://gitlab.com/<your-namespace>/po-requirements-marketplace.git
-/plugin install po-requirements@po-requirements-marketplace
+/plugin marketplace add https://github.com/fakir-tech/the-fakir-machine-skills-public.git
+/plugin install po-requirements@the-fakir-machine-skills-public
 ```
 
-> Replace `<your-namespace>` with your GitLab username or group.
-
-Once installed, the skill activates automatically when you ask to *gather requirements*,
-*scope a project*, *write a brief*, or similar — or you can invoke it explicitly.
+Once installed, skills activate automatically on matching trigger phrases — or you can invoke them explicitly.
 
 ## Update
 
 ```
-/plugin marketplace update po-requirements-marketplace
+/plugin marketplace update the-fakir-machine-skills-public
 ```
 
 ## Repository layout
@@ -36,7 +31,7 @@ Once installed, the skill activates automatically when you ask to *gather requir
 ```
 .
 ├── .claude-plugin/
-│   └── marketplace.json          # marketplace manifest (lists plugins)
+│   └── marketplace.json          # marketplace manifest (lists all plugins)
 ├── plugins/
 │   └── po-requirements/
 │       ├── .claude-plugin/
@@ -46,6 +41,8 @@ Once installed, the skill activates automatically when you ask to *gather requir
 │               └── SKILL.md       # the skill itself
 └── README.md
 ```
+
+New plugins follow the same structure under `plugins/`.
 
 ## License
 
