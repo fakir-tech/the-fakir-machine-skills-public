@@ -1,7 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "po-requirements-marketplace",
-  "description": "Skills for product owners: structured, non-technical requirements gathering.",
+  "name": "the-fakir-machine-skills-public",
+  "description": "Fakir IT's public collection of Claude Code skills and plugins.",
+  "url": "https://github.com/fakir-tech/the-fakir-machine-skills-public",
   "owner": {
     "name": "Reza Hosseini",
     "email": "reza.hosseini@fakir-it.de"
